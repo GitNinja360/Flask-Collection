@@ -4,7 +4,7 @@ import './App.css'
 // Import all flask images
 import flaskBlackCollarBottle from './assets/Black Collar bottle.jpeg'
 import flaskBlackCollarFlask from './assets/Black Collar flask.jpeg'
-import flaskBlackCupTransparent from './assets/Black cup with transparent top.jpeg'
+import flaskBlackCupTransparent from './assets/Black cup with colourless top 2.jpeg'
 import flaskBlackFlaskCollarBottle from './assets/Black Flask with collar bottle.jpeg'
 import flaskBlackRubberTop1 from './assets/Black Flask with rubber top.jpeg'
 import flaskBlackRubberTop2 from './assets/Black Flask with Rubber top.jpeg'
