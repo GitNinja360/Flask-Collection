@@ -5,7 +5,7 @@ import './App.css'
 import blackBamboo from './assets/Black Flask with Bamboo Top.jpeg'
 import blackRubberTopA from './assets/Black Flask with rubber top.jpeg'
 import blackRubberTopB from './assets/Black Flask with Rubber top.jpeg'
-import blackRubberTopC from './assets/Black Flask with Rubber Top.jpeg'
+
 import blackCollarBottle from './assets/Black Flask with collar bottle.jpeg'
 import blackCupColourless from './assets/Black cup with colourless top 2.jpeg'
 import blackTransparent from './assets/Black flask with transparent top.jpeg'
@@ -36,7 +36,7 @@ function App() {
     { name: 'Black cup (colourless top)', images: [blackCupColourless] },
     { name: 'Black flask (transparent top)', images: [blackTransparent] },
     { name: 'Black Flask with collar bottle', images: [blackCollarBottle] },
-    { name: 'Black Flask with rubber top', images: [blackRubberTopA, blackRubberTopB, blackRubberTopC] },
+    { name: 'Black Flask with rubber top', images: [blackRubberTopA, blackRubberTopB] },
     { name: 'Black Flask with Bamboo Top', images: [blackBamboo] },
     { name: 'Black Flask with silver wood top', images: [blackSilverA, blackSilverB] },
     { name: 'Green Flask with rubber top', images: [greenRubber] },
