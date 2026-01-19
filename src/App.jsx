@@ -11,8 +11,7 @@ import blackCupColourless from './assets/Black cup with colourless top 2.jpeg'
 import blackTransparent from './assets/Black flask with transparent top.jpeg'
 import blackSilverA from './assets/Black Flask with silver wood top.jpeg'
 import blackSilverB from './assets/Black Flask with silver wood Top.jpeg'
-import blackCollar from './assets/Black Collar bottle.jpeg'
-import blackCollarFlask from './assets/Black Collar flask.jpeg'
+
 import greenRubber from './assets/Green Flask with rubber top.jpeg'
 import greenSilverA from './assets/Green Flask with silver wood top.jpeg'
 import greenSilverB from './assets/Green Flask with Silver wood top.jpeg'
@@ -31,8 +30,6 @@ import whiteSilver from './assets/white Flask with silver wood top.jpeg'
 
 function App() {
   const sampleImages = [
-    { name: 'Black Collar bottle', images: [blackCollar] },
-    { name: 'Black Collar flask', images: [blackCollarFlask] },
     { name: 'Black cup (colourless top)', images: [blackCupColourless] },
     { name: 'Black flask (transparent top)', images: [blackTransparent] },
     { name: 'Black Flask with collar bottle', images: [blackCollarBottle] },
