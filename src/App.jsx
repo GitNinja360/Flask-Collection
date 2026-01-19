@@ -1,109 +1,53 @@
 import GalleryGrid from './components/GalleryGrid'
 import './App.css'
 
-// Import all flask images
-import flaskBlackCollarBottle from './assets/Black Collar bottle.jpeg'
-import flaskBlackCollarFlask from './assets/Black Collar flask.jpeg'
-import flaskBlackCupTransparent from './assets/Black cup with colourless top 2.jpeg'
-import flaskBlackFlaskCollarBottle from './assets/Black Flask with collar bottle.jpeg'
-import flaskBlackRubberTop1 from './assets/Black Flask with rubber top.jpeg'
-import flaskBlackRubberTop2 from './assets/Black Flask with Rubber top.jpeg'
-import flaskBlackRubberTopNew from './assets/Black Flask with Rubber Top.jpeg'
-import flaskBlackTransparentTop from './assets/Black flask with transparent top.jpeg'
-import flaskBlackBambooTop from './assets/Black Flask with Bamboo Top.jpeg'
-import flaskBlackSilverWoodTop1 from './assets/Black Flask with silver wood top.jpeg'
-import flaskBlackSilverWoodTop2 from './assets/Black Flask with silver wood Top.jpeg'
-import flaskGreenRubberTop from './assets/Green Flask with rubber top.jpeg'
-import flaskGreenSilverWoodTop1 from './assets/Green Flask with silver wood top.jpeg'
-import flaskGreenSilverWoodTop2 from './assets/Green Flask with Silver wood top.jpeg'
-import flaskSelfieWhite1 from './assets/Selfie white flask.jpeg'
-import flaskSelfieWhite2 from './assets/Selfie White Flask.jpeg'
-import flaskSilverWoodTop1 from './assets/silver flask wood  top.jpeg'
-import flaskSilverWoodTop2 from './assets/Silver Flask wood top.jpeg'
-import flaskVaccumBlack1 from './assets/Vaccum Black flask.jpeg'
-import flaskVaccumBlack2 from './assets/Vaccum Black Flask.jpeg'
-import flaskWhiteBambooWoodTop1 from './assets/white flask bamboo wood top & bottom.jpeg'
-import flaskWhiteBambooWoodTop2 from './assets/white Flask bamboo wood top & bottom.jpeg'
-import flaskWhiteTransparentTop from './assets/White Flask Transparent top.jpeg'
-import flaskWhiteRubberTop1 from './assets/white flask with rubber top.jpeg'
-import flaskWhiteRubberTop2 from './assets/White Flask with rubber top.jpeg'
-import flaskWhiteSilverWoodTop from './assets/white Flask with silver wood top.jpeg'
+// Auto-generated imports for existing assets
+import blackBamboo from './assets/Black Flask with Bamboo Top.jpeg'
+import blackRubberTopA from './assets/Black Flask with rubber top.jpeg'
+import blackRubberTopB from './assets/Black Flask with Rubber top.jpeg'
+import blackRubberTopC from './assets/Black Flask with Rubber Top.jpeg'
+import blackCollarBottle from './assets/Black Flask with collar bottle.jpeg'
+import blackCupColourless from './assets/Black cup with colourless top 2.jpeg'
+import blackTransparent from './assets/Black flask with transparent top.jpeg'
+import blackSilverA from './assets/Black Flask with silver wood top.jpeg'
+import blackSilverB from './assets/Black Flask with silver wood Top.jpeg'
+import blackCollar from './assets/Black Collar bottle.jpeg'
+import blackCollarFlask from './assets/Black Collar flask.jpeg'
+import greenRubber from './assets/Green Flask with rubber top.jpeg'
+import greenSilverA from './assets/Green Flask with silver wood top.jpeg'
+import greenSilverB from './assets/Green Flask with Silver wood top.jpeg'
+import selfieA from './assets/Selfie white flask.jpeg'
+import selfieB from './assets/Selfie White Flask.jpeg'
+import silverWoodA from './assets/silver flask wood  top.jpeg'
+import silverWoodB from './assets/Silver Flask wood top.jpeg'
+import vaccumA from './assets/Vaccum Black flask.jpeg'
+import vaccumB from './assets/Vaccum Black Flask.jpeg'
+import whiteBambooA from './assets/white flask bamboo wood top & bottom.jpeg'
+import whiteBambooB from './assets/white Flask bamboo wood top & bottom.jpeg'
+import whiteTransparent from './assets/White Flask Transparent top.jpeg'
+import whiteRubberA from './assets/white flask with rubber top.jpeg'
+import whiteRubberB from './assets/White Flask with rubber top.jpeg'
+import whiteSilver from './assets/white Flask with silver wood top.jpeg'
 
 function App() {
-  // Flask images collection - grouped by product with duplicates
   const sampleImages = [
-    { 
-      name: 'Black Collar bottle', 
-      images: [flaskBlackCollarBottle] 
-    },
-    { 
-      name: 'Black Collar flask', 
-      images: [flaskBlackCollarFlask] 
-    },
-    { 
-      name: 'Black cup with transparent top', 
-      images: [flaskBlackCupTransparent] 
-    },
-    { 
-      name: 'Black Flask with collar bottle', 
-      images: [flaskBlackFlaskCollarBottle] 
-    },
-    { 
-      name: 'Black Flask with rubber top', 
-      images: [flaskBlackRubberTop1, flaskBlackRubberTop2] 
-    },
-    { 
-      name: 'Black Flask with silver wood top', 
-      images: [flaskBlackSilverWoodTop1, flaskBlackSilverWoodTop2] 
-    },
-    { 
-      name: 'Green Flask with rubber top', 
-      images: [flaskGreenRubberTop] 
-    },
-    { 
-      name: 'Green Flask with silver wood top', 
-      images: [flaskGreenSilverWoodTop1, flaskGreenSilverWoodTop2] 
-    },
-    { 
-      name: 'Selfie White Flask', 
-      images: [flaskSelfieWhite1, flaskSelfieWhite2] 
-    },
-    { 
-      name: 'Silver Flask wood top', 
-      images: [flaskSilverWoodTop1, flaskSilverWoodTop2] 
-    },
-    { 
-      name: 'Vaccum Black Flask', 
-      images: [flaskVaccumBlack1, flaskVaccumBlack2] 
-    },
-    { 
-      name: 'white flask with bamboo wood top and bottom', 
-      images: [flaskWhiteBambooWoodTop1, flaskWhiteBambooWoodTop2] 
-    },
-    { 
-      name: 'White Flask Transparent top', 
-      images: [flaskWhiteTransparentTop] 
-    },
-    { 
-      name: 'White Flask with rubber top', 
-      images: [flaskWhiteRubberTop1, flaskWhiteRubberTop2] 
-    },
-    { 
-      name: 'White Flask with silver wood top', 
-      images: [flaskWhiteSilverWoodTop] 
-    },
-    { 
-      name: 'Black Flask with Rubber Top', 
-      images: [flaskBlackRubberTopNew] 
-    },
-    { 
-      name: 'Black flask with transparent top', 
-      images: [flaskBlackTransparentTop] 
-    },
-    { 
-      name: 'Black Flask with Bamboo Top', 
-      images: [flaskBlackBambooTop] 
-    }
+    { name: 'Black Collar bottle', images: [blackCollar] },
+    { name: 'Black Collar flask', images: [blackCollarFlask] },
+    { name: 'Black cup (colourless top)', images: [blackCupColourless] },
+    { name: 'Black flask (transparent top)', images: [blackTransparent] },
+    { name: 'Black Flask with collar bottle', images: [blackCollarBottle] },
+    { name: 'Black Flask with rubber top', images: [blackRubberTopA, blackRubberTopB, blackRubberTopC] },
+    { name: 'Black Flask with Bamboo Top', images: [blackBamboo] },
+    { name: 'Black Flask with silver wood top', images: [blackSilverA, blackSilverB] },
+    { name: 'Green Flask with rubber top', images: [greenRubber] },
+    { name: 'Green Flask with silver wood top', images: [greenSilverA, greenSilverB] },
+    { name: 'Selfie White Flask', images: [selfieA, selfieB] },
+    { name: 'Silver Flask wood top', images: [silverWoodA, silverWoodB] },
+    { name: 'Vaccum Black Flask', images: [vaccumA, vaccumB] },
+    { name: 'white flask with bamboo wood top and bottom', images: [whiteBambooA, whiteBambooB] },
+    { name: 'White Flask Transparent top', images: [whiteTransparent] },
+    { name: 'White Flask with rubber top', images: [whiteRubberA, whiteRubberB] },
+    { name: 'White Flask with silver wood top', images: [whiteSilver] }
   ]
 
   return (
