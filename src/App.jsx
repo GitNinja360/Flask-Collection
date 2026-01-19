@@ -8,6 +8,8 @@ import flaskBlackCupTransparent from './assets/Black cup with colourless top 2.j
 import flaskBlackFlaskCollarBottle from './assets/Black Flask with collar bottle.jpeg'
 import flaskBlackRubberTop1 from './assets/Black Flask with rubber top.jpeg'
 import flaskBlackRubberTop2 from './assets/Black Flask with Rubber top.jpeg'
+import flaskBlackRubberTopNew from './assets/Black Flask with Rubber Top.jpeg'
+import flaskBlackTransparentTop from './assets/Black flask with transparent top.jpeg'
 import flaskBlackSilverWoodTop1 from './assets/Black Flask with silver wood top.jpeg'
 import flaskBlackSilverWoodTop2 from './assets/Black Flask with silver wood Top.jpeg'
 import flaskGreenRubberTop from './assets/Green Flask with rubber top.jpeg'
@@ -88,6 +90,14 @@ function App() {
     { 
       name: 'White Flask with silver wood top', 
       images: [flaskWhiteSilverWoodTop] 
+    },
+    { 
+      name: 'Black Flask with Rubber Top', 
+      images: [flaskBlackRubberTopNew] 
+    },
+    { 
+      name: 'Black flask with transparent top', 
+      images: [flaskBlackTransparentTop] 
     }
   ]
 
