@@ -26,7 +26,7 @@ import whiteBambooB from './assets/white Flask bamboo wood top & bottom.jpeg'
 import whiteTransparent from './assets/White Flask Transparent top.jpeg'
 import whiteRubberA from './assets/white flask with rubber top.jpeg'
 import whiteRubberB from './assets/White Flask with rubber top.jpeg'
-import whiteSilver from './assets/white Flask with silver wood top.jpeg'
+import whiteSilver from './assets/white Flask with wood top.jpeg'
 
 function App() {
   const sampleImages = [
@@ -46,7 +46,7 @@ function App() {
     { name: 'white flask with bamboo wood top and bottom', images: [whiteBambooA, whiteBambooB] },
     { name: 'White Flask Transparent top', images: [whiteTransparent] },
     { name: 'White Flask with rubber top', images: [whiteRubberA, whiteRubberB] },
-    { name: 'White Flask with silver wood top', images: [whiteSilver] }
+    { name: 'White Flask with wood top', images: [whiteSilver] }
   ]
 
   return (
