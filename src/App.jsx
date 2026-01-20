@@ -5,16 +5,17 @@ import './App.css'
 import blackBamboo from './assets/Black Flask with Bamboo Top.jpeg'
 import blackRubberTopA from './assets/Black Flask with rubber top.jpeg'
 import blackRubberTopB from './assets/Black Flask with Rubber top.jpeg'
-
+import bambooFlask from './assets/Bamboo flask.jpeg'
 import blackCollarBottle from './assets/Black Flask with collar bottle.jpeg'
 import blackCupColourless from './assets/Black cup with colourless top 2.jpeg'
-import blackTransparent from './assets/Black flask with transparent top.jpeg'
+import coffeMugs from './assets/Coffee Mugsjpeg'
 import blackSilverA from './assets/Black Flask with silver wood top.jpeg'
 import blackSilverB from './assets/Black Flask with silver wood Top.jpeg'
 
 import greenRubber from './assets/Green Flask with rubber top.jpeg'
 import greenSilverA from './assets/Green Flask with silver wood top.jpeg'
 import greenSilverB from './assets/Green Flask with Silver wood top.jpeg'
+import largeBlackFlask from './assets/Large Black Flask Mag.jpeg'
 import selfieA from './assets/Selfie white flask.jpeg'
 import selfieB from './assets/Selfie White Flask.jpeg'
 import silverWoodA from './assets/silver flask wood  top.jpeg'
@@ -29,14 +30,16 @@ import whiteRubberB from './assets/White Flask with rubber top.jpeg'
 import whiteSilver from './assets/white Flask with silver wood top.jpeg'
 
 function App() {
-  const sampleImages = [
+  const sampleamboo flask', images: [bambooFlask] },
     { name: 'Black cup (colourless top)', images: [blackCupColourless] },
-    { name: 'Black flask (transparent top)', images: [blackTransparent] },
     { name: 'Black Flask with collar bottle', images: [blackCollarBottle] },
     { name: 'Black Flask with rubber top', images: [blackRubberTopA, blackRubberTopB] },
     { name: 'Black Flask with Bamboo Top', images: [blackBamboo] },
     { name: 'Black Flask with silver wood top', images: [blackSilverA, blackSilverB] },
+    { name: 'Coffee Mugs', images: [coffeMugs] },
     { name: 'Green Flask with rubber top', images: [greenRubber] },
+    { name: 'Green Flask with silver wood top', images: [greenSilverA, greenSilverB] },
+    { name: 'Large Black Flask Mag', images: [largeBlackFlask
     { name: 'Green Flask with silver wood top', images: [greenSilverA, greenSilverB] },
     { name: 'Selfie White Flask', images: [selfieA, selfieB] },
     { name: 'Silver Flask wood top', images: [silverWoodA, silverWoodB] },
